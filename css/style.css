@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'hanzipen';
+	src: url('fonts/Hanzipen.ttc');
+}
+
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: #F0EDED;
+}
+
+
+.container{
+  margin: auto;
+  width: 116.11vh;
+  height: 100vh;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.tabs{
+  width: 45.117vh;
+  height: 45.117vh;
+  display: inline-block;
+  margin: 43.16vh 0 0 -9.375vh;
+  border: 8px solid #979797;
+}
+
+.tabs h2{
+  font-family: "hanzipen";
+}
+
+.name{
+  float: right;
+  margin: 11.7188vh -9.375vh 0 0;
+  width: 45.117vh;
+  height: 45.117vh;
+  display: inline-block;
+  border: 8px solid #979797;
+}
+
+.name img{
+  width: 28.125vh;
+  height: 22vh;
+  margin: 10vh 0 0 9vh;
+}
+
+.sns_links{
+  float: right;
+}
