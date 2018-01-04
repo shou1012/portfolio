@@ -14,6 +14,8 @@ body{
   background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-size: cover ;
+  min-width: 960px;
+  min-height: 800px;
 }
 
 .tabs{
@@ -24,16 +26,19 @@ body{
   border: 8px solid #979797;
 }
 
-.tabs h2{
+.tabs a{
+  display: block;
   font-family: 'HanziPen SC', sans-serif;
+  font-weight: 600;
   color: #979797;
   font-size: 4.88vh;
   margin-bottom: 3.3vh;
   text-align: center;
+  text-decoration: none;
 }
 
-.tabs h2:first-child{
-  margin-top: 8.59vh;
+.tabs a:first-child{
+  margin-top: 14vh;
 
 }
 
@@ -58,12 +63,12 @@ body{
   margin: -22vh 3.5vh 0 0;
 }
 
-.sns_links img{
+.sns_links a{
   width: 3.125vh;
   height: 3.125vh;
   margin-right: 2.343vh;
 }
 
-.sns_links img:last-child{
+.sns_links a:last-child{
   margin: 0;
 }
