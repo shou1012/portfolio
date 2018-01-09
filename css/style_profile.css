@@ -13,9 +13,27 @@ body{
 }
 .side{
   width: 38.33%;
-  background-color: #fff;
-
 }
+
+.box{
+  float: left;
+  width: 46vh;
+  height: 63vh;
+  border: 10px solid #979797;
+  margin-top: 12vh;
+  position: absolute;
+}
+
+.white{
+  height: 100vh;
+  margin: 0 13vh 0 8vh;
+  background-color: #fff;
+}
+
+.tabs{
+  margin-top: 10vh;
+}
+
 .tabs a{
   display: block;
   font-family: 'HanziPen SC', sans-serif;
@@ -29,14 +47,24 @@ body{
 
 .tabs a:first-child{
   color: #3C705A;
-  margin-top: 14vh;
+}
 
+.name{
+  padding-top: 17.67vh;
+}
+
+.name img{
+  height: 25vh;
+}
+
+.sns_links{
+  margin-top: 15vh;
 }
 
 .sns_links a{
   width: 3.125vh;
   height: 3.125vh;
-  margin-right: 2.343vh;
+  margin-right: 3.5vh;
 }
 
 .sns_links a:last-child{
