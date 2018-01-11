@@ -12,6 +12,7 @@ body{
   margin: 0 auto;
 }
 .side{
+  float:left;
   width: 38.33%;
 }
 
@@ -69,4 +70,8 @@ body{
 
 .sns_links a:last-child{
   margin: 0;
+}
+
+.main{
+  float: right;
 }
